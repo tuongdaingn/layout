@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Edupia IELTS</title>
+	<!-- Import Boostrap css, js, font awesome here -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+	</script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+	<link rel="stylesheet" href="slick.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	<link href="./layout-educa/assets/css/main.css" rel="stylesheet">
+	<link rel="stylesheet"
+		href="./layout-educa/assets/fonts/fontawesome-free-6.5.2-web/fontawesome-free-6.5.2-web/css/all.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.x.x/js/swiper.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid p-0">
+		<section id="nav-bar">
+			<nav class="navbar navbar-expand-md navbar-light ">
+				<a class="navbar-brand" href="#"><img src="./layout-educa/assets/img/imgpsh_fullsize_anim.png" alt=""
+						style="width: 30%; margin-left: 50px;"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+					aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+					<ul class="navbar-nav m-lg-auto">
+						<li class="nav-item ">
+							<a class="nav-link" href="#">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Chương trình đào tạo</a>
+						</li>
+					</ul>
+					<button class="login">Đăng nhập <i class="fa-solid fa-arrow-right"
+							style="margin-left: 3px;"></i></button>
+				</div>
+			</nav>
+		</section>
+
+		<section id="banner"
+			style="background-image: url(./layout-educa/assets/img/Frame\ 1261158252\ 1.png); width: 100%; background-size: cover; background-position:  center;">
+			<div class="contain-fluid ">
+
+				<div class="banner-text" style="text-align: center;">
+					<div class="banner-text-big">
+						<p class="banner-big-item d-flex flex-column " style="font-size: 35px; font-weight: 500;">Phát
+							triển tư duy Tiếng Anh
+							toàn diện.</p>
+						<p class="banner-big-item d-flex flex-column " style="font-size: 35px; font-weight: 500;">Chinh
+							phục IELTS 4 kỹ năng.
+						</p>
+					</div>
+
+					<ul class="banner-text-li d-flex flex-column flex-md-row">
+						<li class="banner-text-item">Lớp học tương tác</li>
+						<li class="banner-text-item">Nội dung thú vị</li>
+						<li class="banner-text-item">Giáo viên chuyên nghiệp</li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+
+		<div class="test-calendar">
+			<div class="container">
+				<div class="row no-gutters test-calendar-mobile">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 test" style="margin-top: 20px; padding: 10px;">
+						<img src="./layout-educa/assets/img/ic_test.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+						<div class="test-text">
+							<b style="font-size: 15px;">Kiểm tra trình độ đầu vào</b>
+							<p class="test-desc" style="font-size: 13px;">Đánh giá toàn diện 4 kĩ năng: Nghe, Nói, Đọc,
+								Viết</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 calendar" style="margin-top: 20px; padding: 10px;">
+						<img src="./layout-educa/assets/img/ic_appointment.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+						<div class="calendar-text">
+							<b style="font-size: 15px;">Chọn lịch học phù hợp</b>
+							<p class="calendar-desc" style="font-size: 13px;">Linh hoạt sắp xếp thời gian học</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 class" style="margin-top: 20px; padding: 10px;">
+						<img src="./layout-educa/assets/img/ic_class.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+						<div class="class-text">
+							<b style="font-size: 15px;">Bắt đầu lớp học</b>
+							<p class="class-desc" style="font-size: 13px;">Tải app học sinh & phần mềm Classin.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- <div class="course">
+			<div class="course-text">
+				<h2>Các khóa học IELTS theo lộ trình</h2>
+				<p style="margin-top: 30px; margin-bottom: 40px;">Chinh phục IELTS dễ dàng với khóa học chuyên nghiệp,
+					lộ trình cá nhân hóa, giảng viên chuyên môn giỏi, truyền thụ kiến thứ dễ hiểu, dễ nhớ.</p>
+			</div>
+
+			<div class="container">
+				<div class="row  introduce-course">
+					<div class="col-xs-1" style="width: 12.5%;"></div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 walkers1">
+						<h3 style="text-align: center; color: white; margin-top: 30px; margin-bottom: 40px;">E0 -
+							Walkers 1</h3>
+						<div class="walkers1-top">
+							<div class="container">
+								<div class="row no-gutters vocab">
+									<div class="col-xs-6 nav-course-left">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px; color: white;">240</b>
+											<p style="font-size: 13px;  color: white;">Từ vựng</p>
+										</div>
+									</div>
+
+									<div class="col-xs-6">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px;  color: white;">16</b>
+											<p style="font-size: 13px;  color: white;">Hiện tượng</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="walker1-desc">
+							<p style=" color: white;">Sau khi học trẻ có thể:</p>
+							<div class="walkers1-desc1">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Làm quen
+									với các từ vựng về nhiều thứ khác nhau trong cuộc sống và nâng cao sự hứng thú cũng
+									như sự tự tin của bạn khi học tiếng anh</p>
+
+							</div>
+
+							<div class="walkers1-desc2">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Có thể
+									hiểu các hướng dẫn đơn giản bằng tiếng Anh và đưa ra phản hồi</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 walkers2">
+						<h3 style="text-align: center; color: white; margin-top: 30px; margin-bottom: 40px;">E1 -
+							Walkers 2</h3>
+						<div class="walkers2-top">
+							<div class="container">
+								<div class="row no-gutters vocab">
+									<div class="col-xs-6 nav-course-center">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px; color: white;">240</b>
+											<p style="font-size: 13px;  color: white;">Từ vựng</p>
+										</div>
+									</div>
+
+									<div class="ccol-xs-6">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px;  color: white;">10</b>
+											<p style="font-size: 13px;  color: white;">Hiện tượng</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="walker1-desc">
+							<p style=" color: white;">Sau khi học trẻ có thể:</p>
+							<div class="walkers1-desc1">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Làm quen
+									với các từ vựng về nhiều thứ khác nhau trong cuộc sống và nâng cao sự hứng thú cũng
+									như sự tự tin của bạn khi học tiếng anh</p>
+
+							</div>
+
+							<div class="walkers1-desc2">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Có thể
+									hiểu các hướng dẫn đơn giản bằng tiếng Anh và đưa ra phản hồi</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 runners">
+						<h3 style="text-align: center; color: white; margin-top: 30px; margin-bottom: 40px;">Runners
+						</h3>
+						<div class="walkers2-top">
+							<div class="container">
+								<div class="row no-gutters vocab">
+									<div class="col-xs-6 nav-course-right">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px; color: white;">240</b>
+											<p style="font-size: 13px;  color: white;">Từ vựng</p>
+										</div>
+									</div>
+
+									<div class="col-xs-6">
+										<i class="fa-solid fa-file-word" style="font-size: 30px;  color: white;"></i>
+										<div class="left-text" style="margin-left: 40px; margin-top: -40px;">
+											<b style="font-size: 20px;  color: white;">10</b>
+											<p style="font-size: 13px;  color: white;">Hiện tượng</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="walker1-desc">
+							<p style=" color: white;">Sau khi học trẻ có thể:</p>
+							<div class="walkers1-desc1">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Làm quen
+									với các từ vựng về nhiều thứ khác nhau trong cuộc sống và nâng cao sự hứng thú cũng
+									như sự tự tin của bạn khi học tiếng anh</p>
+
+							</div>
+
+							<div class="walkers1-desc2">
+								<i class="fa-solid fa-circle-check child" style=" color: white;"></i>
+								<p class="child" style=" color: white; margin-left: 30px; margin-top: -27px;">Có thể
+									hiểu các hướng dẫn đơn giản bằng tiếng Anh và đưa ra phản hồi</p>
+							</div>
+
+						</div>
+
+					</div>
+
+					<div class=" col-xs-1" style="width: 12.5%;"></div>
+
+
+				</div>
+			</div>
+
+			<div class="choose" style="padding-bottom: 100px;">
+				<div class="test__skill">
+					<i class="fa-solid fa-vials test__icon2" style="margin-left: 20px; margin-top: 20px;"></i>
+					<p class="test" style="margin-left: 35px; margin-top: -25px;">Test kĩ năng đầu vào</p>
+				</div>
+
+				<div class="advise__course">
+					<i class="fa-solid fa-comment-medical advise__icon"
+						style="margin-left: 20px; margin-top: 20px;"></i>
+					<p class="advise" style="margin-left: 50px; margin-top: -25px;">Tư vấn khóa học</p>
+				</div>
+			</div>
+
+		</div> -->
+
+		<div class="courses">
+			<div class="course-text">
+				<h2>Các khóa học IELTS theo lộ trình</h2>
+				<p style="margin-top: 30px; margin-bottom: 40px;">Chinh phục IELTS dễ dàng với khóa học chuyên nghiệp,
+					lộ trình cá nhân hóa, giảng viên chuyên môn giỏi, truyền thụ kiến thứ dễ hiểu, dễ nhớ.</p>
+			</div>
+			<div class="image-slider">
+				<div class="image-item">
+					<div class="image">
+						<img src="./layout-educa/assets/img/E0.png" alt="">
+					</div>
+				</div>
+
+				<div class="image-item">
+					<div class="image">
+						<img src="./layout-educa/assets/img/E1.png" alt="">
+					</div>
+				</div>
+
+				<div class="image-item">
+					<div class="image">
+						<img src="./layout-educa/assets/img/E2.png" alt="">
+					</div>
+				</div>
+
+				<div class="image-item">
+					<div class="image">
+						<img src="./layout-educa/assets/img/E3.png" alt="">
+					</div>
+				</div>
+
+				<div class="image-item">
+					<div class="image">
+						<img src="./layout-educa/assets/img/E4.png" alt="">
+					</div>
+				</div>
+
+				<!-- <div class="image-item">
+					<div class="image">
+						<img src="./Untitled3.png" alt="">
+					</div>
+				</div> -->
+			</div>
+		</div>
+
+		<div class="container-fluid p-0">
+			<div class="plan-study" style="padding: 0;">
+				<div class="plan-title" style="text-align: center;">
+					<h1 style="margin-bottom: 20px;">Kế hoạch học IELTS hiệu quả</h1>
+					<p>Quá trình học 3 chiều khiến trẻ yêu thích học tiếng Anh, chinh phục IELTS dễ dàng.</p>
+				</div>
+
+				<div class="container-fluid">
+					<div class="row no-gutters plan-study-content">
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-4">
+							<div class="card card1" style="width: 20rem;  height: 430px; margin-left: 70px;">
+								<img src="./layout-educa/assets/img/Frame 1261158234 (1).png" class="card-img-top"
+									alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Xem trước mạnh mẽ trước lớp</h5>
+									<p class="card-text">Các cốt truyện gamification hấp dẫn và các hướng dẫn xem trước
+										khiến trẻ em rất mong chờ mỗi buổi học.</p>
+
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-4 ">
+							<div class="card card2" style="width: 20rem; height: 430px;  margin-left: 70px;">
+								<img src="./layout-educa/assets/img/Frame 1261158234.png" class="card-img-top"
+									alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Tương tác mạnh mẽ trước lớp</h5>
+									<p class="card-text">Khuyến khích tương tác hiệu quả và đã được thiết kế để liên tục
+										củng cố kết quả học tập và sự tự tin.</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 col-md-12 col-sm-12 col-xs-4 card3">
+							<div class="card card3" style="width: 20rem;  height: 430px;  margin-left: 70px;">
+								<img src="./layout-educa/assets/img/Frame 1261158234 (2).png" class="card-img-top"
+									alt="...">
+								<div class="card-body">
+									<h5 class="card-title">Củng cố mạnh mẽ sau giờ học</h5>
+									<p class="card-text">Từ vựng, phát âm, nghe, ngữ pháp và đọc được tích hợp khéo léo
+										vào các trò chơi tương tác và tài liệu luyện tập hỗ trợ, khiến việc học trở nên
+										thú vị.</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="teacher">
+			<div class="container-fluid">
+				<div class="teacher-text">
+					<h1>Giáo viên truyền cảm hứng</h1>
+					<p>Đội ngũ giảng dạy và nghiên cứu có trình độ học vấn cao thiết kế các khóa học chuyên nghiệp hơn
+						và
+						giúp trẻ có khả năng học tập tốt hơn</p>
+				</div>
+
+				<div class="swiper mySwiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="container-fluid">
+								<div class="row ">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<img src="./layout-educa/assets/img/Frame 12.png" alt="" style="width: 100%;">
+									</div>
+									<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 infor-teacher">
+										<div class="teacher__content__text">
+											<p style="font-size: 20px; font-weight: 550;">Thạc sĩ MS Thanh Hương</p>
+											<div class="teacher-ielts" style="margin-top: 30px;">
+												<p class="ielts-research" style="display: inline;">8.0 IELTS Overall</p>
+												<p class="ielts-research" style="display: inline; margin-left: 50px;">
+													Trưởng
+													phòng nghiên cứu Edupia IELTS</p>
+											</div>
+											<p>Là người có nhiều đóng góp phát triển nội dung Edupia IELTS. Với nhiều
+												năm
+												nghiên cứu, giảng dạy và phát triển các bài giảng cho chứng chỉ quốc tế:
+												IELTS, TOEFL.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="container-fluid">
+								<div class="row">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+										<img src="./layout-educa/assets/img/Frame 12 (1).png" alt="">
+									</div>
+									<div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 infor-teacher">
+										<div class="teacher__content__text">
+											<p style="font-size: 20px; font-weight: 550;">Thạc sĩ MS Hồng Nhung</p>
+											<div class="teacher-ielts" style="margin-top: 30px;">
+												<p class="ielts-research">8.0 IELTS Overall</p>
+												<p class="ielts-research" style="margin-left: 50px;">Trưởng phòng nghiên
+													cứu
+													Edupia IELTS</p>
+											</div>
+											<p>Là người có nhiều đóng góp phát triển nội dung Edupia IELTS. Với nhiều
+												năm
+												nghiên cứu, giảng dạy và phát triển các bài giảng cho chứng chỉ quốc tế:
+												IELTS, TOEFL.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="reason-choose">
+			<div class="reason-text">
+				<h1>Tại sao nên chọn Edupia IELTS</h1>
+				<p>Cách các khóa học của chúng tôi có thể giúp trẻ nâng cao toàn diện khả năng học tập và chất lượng
+					toàn diện.</p>
+			</div>
+
+			<div class="container_collab">
+				<div class="slider">
+					<div class="slides slides1" style="background-image: url(./layout-educa/assets/img/Brand.png);">
+						<!-- <div class="content">
+							<i class="fa-solid fa-square-check"></i>
+							<h2>Thương hiệu</h2>
+							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
+								tại thị trường Việt Nam.</p>
+						</div> -->
+					</div>
+
+					<div class="slides slides2" style="background-image: url(./layout-educa/assets/img/Teacher.png);">
+						<!-- <div class="content">
+							<i class="fa-solid fa-clipboard-user"></i>
+							<h2>Giáo viên</h2>
+							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
+								tại thị trường Việt Nam.</p>
+						</div> -->
+					</div>
+
+					<div class="slides slides3" style="background-image: url(./layout-educa/assets/img/Course.png);">
+						<!-- <div class="content">
+							<i class="fa-solid fa-tv"></i>
+							<h2>Khóa học</h2>
+							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
+								tại thị trường Việt Nam.</p>
+						</div> -->
+					</div>
+
+					<div class="slides slides4" style="background-image: url(./layout-educa/assets/img/Data.png);">
+						<!-- <div class="content">
+							<i class="fa-solid fa-table"></i>
+							<h2>Dữ liệu</h2>
+							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
+								tại thị trường Việt Nam.</p>
+						</div> -->
+					</div>
+
+
+				</div>
+
+				<div class="buttons">
+					<span class="prev"></span>
+					<span class="next"></span>
+				</div>
+			</div>
+		</div>
+
+		<div class="collab-prize">
+			<div class="collab-text">
+				<h1>Hợp tác học thuật và giải thưởng</h1>
+				<p>Edupia cam kết cung cấp các cho học viên dịch vụ đào tạo trực tuyến chất lượng cao, cá nhân hóa.</p>
+			</div>
+			<div class="collab-img" style="text-align: center;">
+				<img src="./layout-educa/assets/img/Cambridge-University-Press.png" alt="" style="width: 200px;">
+			</div>
+
+			<div class="collab-content">
+				<div class="container-fluid">
+					<div class="row no-gutters">
+						<div class="col-md-1"></div>
+						<div class="col-md-10">
+							<div class="row ">
+								<div class="col-md-3 img-center">
+									<div class="content1 ">
+										<img src="./layout-educa/assets/img/Awards.png" alt="" class="shadow">
+										<div class="content1__text"
+											style="padding-left: 15px; padding-right: 15px; margin-top: 25px;">
+											<h3 class="collab-text-child"
+												style="text-align: center; font-size: 13px; color:rgb(41, 237, 237);">
+												Best
+												Online English Teaching Product</h3>
+											<p class="collab-text-child1" style="text-align: center; font-size: 11px;">
+												Sản phẩm đào tạo tiếng
+												Anh trực tuyến tốt nhất. Giải thưởng thương hiệu toàn cầu.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 img-center">
+									<div class="content2">
+										<img src="./layout-educa/assets/img/Awards (1).png" alt="" class="shadow">
+										<div class="content2__text"
+											style="padding-left: 15px; padding-right: 15px; margin-top: 25px;">
+											<h3 class="collab-text-child"
+												style="text-align: center; font-size: 13px; color:rgb(41, 237, 237);">
+												The
+												BrandLaureate SMEs BestBrands Award</h3>
+											<p class="collab-text-child1" style="text-align: center; font-size: 11px;">
+												Nhà cung cấp dịch vụ
+												giáo dục trực tuyến xuất sắc nhất.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 img-center">
+									<div class="content3">
+										<img src="./layout-educa/assets/img/Awards (2).png" alt="" class="shadow">
+										<div class="content3__text"
+											style="padding-left: 15px; padding-right: 15px; margin-top: 25px;">
+											<h3 class="collab-text-child"
+												style="text-align: center; font-size: 13px; color:rgb(41, 237, 237);">
+												Top 50
+												công ty Edtech nổi bật của ĐNA</h3>
+											<p class="collab-text-child1" style="text-align: center; font-size: 11px;">
+												50 doanh nghiệp công
+												nghệ trẻ, có tốc độ tăng trưởng nhanh và hứa hẹn nhiều đột phá trong
+												tương
+												lai.</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 img-center">
+									<div class="content4">
+										<img src="./layout-educa/assets/img/Awards (3).png" alt="" class="shadow">
+										<div class="content4__text"
+											style="padding-left: 15px; padding-right: 15px; margin-top: 25px;">
+											<h3 class="collab-text-child"
+												style="text-align: center; font-size: 13px; color:rgb(41, 237, 237);">
+												Top 10
+												Tin Dùng Việt Nam</h3>
+											<p class="collab-text-child1" style="text-align: center; font-size: 11px;">
+												Được
+												bình chọn bởi các
+												chuyên gia đầu ngành và các nhà báo kỳ cựu của Tạp chí Kinh tế Việt Nam
+												-
+												VnEconomy</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-1"></div>
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="image-slider1">
+				<div class="image-item">
+					<div class="image">
+						<img src="/Untitled4.png" alt="">
+					</div>
+				</div>
+		
+				<div class="image-item">
+					<div class="image">
+						<img src="/Untitled5.png" alt="">
+					</div>
+				</div>
+		
+				<div class="image-item">
+					<div class="image">
+						<img src="/Untitled6.png" alt="">
+					</div>
+				</div>
+		
+				<div class="image-item">
+					<div class="image">
+						<img src="/Untitled7.png" alt="">
+					</div>
+				</div>
+		
+			</div> -->
+
+
+		</div>
+
+		<div class="footer">
+			<div class="container-fluid footer-above">
+				<div class="row no-gutters">
+					<div class="col-md-3 col-lg col-sm-12">
+						<div class="footer__first">
+							<h3 style="font-size: 15px;">Công ty cổ phần giáo dục Educa Corporation</h3>
+							<div class="phone">
+								<i class="fa-solid fa-phone-volume" style="margin-top: 25px; font-size: 25px;"></i>
+								<h1 style="margin-left: 15px; margin-top: 25px; font-size: 25px;">093.120.8686</h1>
+							</div>
+
+							<p style="font-size: 13px;">Thứ 2 đến Chủ Nhật: 08:00 - 22:00</p>
+							<img src="./layout-educa/assets/img/Dang ky, thong bao website thuong mai dien tu 1.png"
+								alt="" style="width: 100px;">
+						</div>
+					</div>
+					<div class="col-md-2  col-sm-12">
+						<div class="footer__second">
+							<h3 style="font-size: 15px;"><u>Về Edupia IELTS</u></h3>
+							<p style="margin-top: 50px;">Vấn đề thường gặp</p>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="footer__third">
+							<p style="margin-top: -5px;">Liên hệ</p>
+							<p style="margin-top: 50px; font-size: 14px;">Cổng thông tin giáo viên</p>
+						</div>
+					</div>
+					<div class="col-md-2 col-sm-12">
+						<div class="footer__fourth">
+							<p style="margin-top: -5px;">Tuyển dụng</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-12">
+						<div class="footer__fifth">
+							<p style="margin-top: -5px;">Theo dõi chúng tôi</p>
+							<div class="icon__social">
+								<i class="fa-brands fa-facebook footer__icon" style="font-size: 25px;"></i>
+								<i class="fa-brands fa-youtube footer__icon"
+									style="margin-left: 15px; font-size: 25px;"></i>
+								<i class="fa-brands fa-square-instagram footer__icon"
+									style="margin-left: 15px; font-size: 25px;"></i>
+								<i class="fa-brands fa-linkedin footer__icon"
+									style="margin-left: 15px; font-size: 25px;"></i>
+								<i class="fa-brands fa-tiktok footer__icon"
+									style="margin-left: 15px; font-size: 25px;"></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="separator"></div>
+
+			<div class="footer__footer">
+				<p>Copyright &copy; 2024 Educa Corporation</p>
+				<p>Điều khoản sử dụng | Chính sách & quyền riêng tư | Chính sách bảo mật</p>
+			</div>
+		</div>
+
+
+
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script>
+		var swiper = new Swiper(".mySwiper", {
+			navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
+			},
+		});
+
+		$(document).ready(function () {
+			$('.item').click(function () {
+				if (!$(this).hasClass('active')) {
+					$('.item').removeClass('active');
+					$(this).addClass('active');
+				}
+			});
+		});
+
+
+		let next = document.querySelector('.next');
+		let prev = document.querySelector('.prev');
+		let slider = document.querySelector('.slider');
+
+		next.addEventListener('click', function () {
+			let slides = document.querySelectorAll('.slides');
+			slider.appendChild(slides[0]);
+		})
+
+		prev.addEventListener('click', function () {
+			let slides = document.querySelectorAll('.slides');
+			slider.prepend(slides[slides.length - 1]);
+		})
+
+	</script>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+	<script src="./app.js"></script>
+
+</body>
+
+</html>
