@@ -23,6 +23,25 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
+<style>
+	@media (max-width: 575px) {
+		#banner {
+		background-image: url('./layout-educa/assets/img/Mobile.png') !important;
+		background-size: cover;
+		background-position: center;
+	}
+	}
+	@media only screen and (min-width: 576px) and (max-width: 767px) {
+		#banner {
+		background-image: url('./layout-educa/assets/img/Mobile.png') !important;
+		background-size: cover;
+		background-position: center;
+	}
+	}
+		
+
+</style>
+
 <body>
 	<div class="container-fluid p-0">
 		<section id="nav-bar">
@@ -49,7 +68,8 @@
 		</section>
 
 		<section id="banner"
-			style="background-image: url(./layout-educa/assets/img/Frame\ 1261158252\ 1.png); width: 100%; background-size: cover; background-position:  center;">
+			style="background-image: url(./layout-educa/assets/img/Frame\ 1261158252\ 1.png); width: 100%; background-size: cover;
+			background-position: center;">
 			<div class="contain-fluid ">
 
 				<div class="banner-text" style="text-align: center;">
@@ -73,32 +93,34 @@
 		</section>
 
 		<div class="test-calendar">
-			<div class="container">
-				<div class="row no-gutters test-calendar-mobile">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 test" style="margin-top: 20px; padding: 10px;">
-						<img src="./layout-educa/assets/img/ic_test.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
-						<div class="test-text">
-							<b style="font-size: 15px;">Kiểm tra trình độ đầu vào</b>
-							<p class="test-desc" style="font-size: 13px;">Đánh giá toàn diện 4 kĩ năng: Nghe, Nói, Đọc,
-								Viết</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 calendar" style="margin-top: 20px; padding: 10px;">
-						<img src="./layout-educa/assets/img/ic_appointment.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
-						<div class="calendar-text">
-							<b style="font-size: 15px;">Chọn lịch học phù hợp</b>
-							<p class="calendar-desc" style="font-size: 13px;">Linh hoạt sắp xếp thời gian học</p>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 class" style="margin-top: 20px; padding: 10px;">
-						<img src="./layout-educa/assets/img/ic_class.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
-						<div class="class-text">
-							<b style="font-size: 15px;">Bắt đầu lớp học</b>
-							<p class="class-desc" style="font-size: 13px;">Tải app học sinh & phần mềm Classin.</p>
-						</div>
-					</div>
-				</div>
-			</div>
+			
+									<div class="container">
+										<div class="row no-gutters test-calendar-mobile">
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 test" style="margin-top: 20px; padding: 10px;">
+												<img src="./layout-educa/assets/img/ic_test.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+												<div class="test-text">
+													<b style="font-size: 15px;">Kiểm tra trình độ đầu vào</b>
+													<p class="test-desc" style="font-size: 13px;">Đánh giá toàn diện 4 kĩ năng: Nghe, Nói, Đọc,
+														Viết</p>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 calendar" style="margin-top: 20px; padding: 10px;">
+												<img src="./layout-educa/assets/img/ic_appointment.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+												<div class="calendar-text">
+													<b style="font-size: 15px;">Chọn lịch học phù hợp</b>
+													<p class="calendar-desc" style="font-size: 13px;">Linh hoạt sắp xếp thời gian học</p>
+												</div>
+											</div>
+											<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 class" style="margin-top: 20px; padding: 10px;">
+												<img src="./layout-educa/assets/img/ic_class.png" alt="" style="width: 60px; height: 60px; margin-right: 20px;">
+												<div class="class-text">
+													<b style="font-size: 15px;">Bắt đầu lớp học</b>
+													<p class="class-desc" style="font-size: 13px;">Tải app học sinh & phần mềm Classin.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+				
 		</div>
 
 		<!-- <div class="course">
@@ -313,6 +335,17 @@
 			</div>
 		</div>
 
+		<div class="two-button">
+			<div class="test-skill">
+				<img src="./layout-educa/assets/img/ic_test (1).png" alt="" style="width: 30px;">
+				<p>Test kĩ năng đầu vào</p>
+			</div>
+			<div class="advise-course">
+				<img src="./layout-educa/assets/img/ic_chat.png" alt="" style="width: 30px;">
+				<p>Tư vấn khóa học</p>
+			</div>
+		</div>
+
 		<div class="container-fluid p-0">
 			<div class="plan-study" style="padding: 0;">
 				<div class="plan-title" style="text-align: center;">
@@ -365,7 +398,7 @@
 			</div>
 		</div>
 
-		<div class="teacher">
+		<div class="teacher"  style="background-image: url(./layout-educa/assets/img/map.png);">
 			<div class="container-fluid">
 				<div class="teacher-text">
 					<h1>Giáo viên truyền cảm hứng</h1>
@@ -441,40 +474,50 @@
 
 			<div class="container_collab">
 				<div class="slider">
-					<div class="slides slides1" style="background-image: url(./layout-educa/assets/img/Brand.png);">
-						<!-- <div class="content">
-							<i class="fa-solid fa-square-check"></i>
+					<div class="slides slides1 gradient-overlay" style="background-image: url(./layout-educa/assets/img/Brand\ \(1\).png); background-size: cover;">
+						<div class="content">
+							<div class="title1" style="display: flex;">
+								<img src="./layout-educa/assets/img/Frame 1261158245.png" alt=""  style="margin-right: 16px; ">
 							<h2>Thương hiệu</h2>
+							</div>
 							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
 								tại thị trường Việt Nam.</p>
-						</div> -->
+						</div>
 					</div>
 
-					<div class="slides slides2" style="background-image: url(./layout-educa/assets/img/Teacher.png);">
-						<!-- <div class="content">
-							<i class="fa-solid fa-clipboard-user"></i>
+					<div class="slides slides2 gradient-overlay" style="background-image: url(./layout-educa/assets/img/Teacher\ \(1\).png);">
+						<div class="content">
+							<div class="title2" style="display: flex;">
+								<img src="./layout-educa/assets/img/Frame 1261158245 (1).png" alt=""  style="margin-right: 16px;">
 							<h2>Giáo viên</h2>
+							</div>
 							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
 								tại thị trường Việt Nam.</p>
-						</div> -->
+						</div>
 					</div>
 
-					<div class="slides slides3" style="background-image: url(./layout-educa/assets/img/Course.png);">
-						<!-- <div class="content">
-							<i class="fa-solid fa-tv"></i>
-							<h2>Khóa học</h2>
+					<div class="slides slides3 gradient-overlay" style="background-image: url(./layout-educa/assets/img/Course\ \(1\).png);">
+						<div class="content">
+							<div class="title3" style="display: flex;">
+								<img src="./layout-educa/assets/img/Frame 1261158248.png" alt="" style="margin-right: 16px;">
+								<h2>Khóa học</h2>
+							</div>
+							
 							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
 								tại thị trường Việt Nam.</p>
-						</div> -->
+						</div>
 					</div>
 
-					<div class="slides slides4" style="background-image: url(./layout-educa/assets/img/Data.png);">
-						<!-- <div class="content">
-							<i class="fa-solid fa-table"></i>
-							<h2>Dữ liệu</h2>
+					<div class="slides slides4 gradient-overlay" style="background-image: url(./layout-educa/assets/img/Data\ \(1\).png);">
+						<div class="content">
+							<div class="title4" style="display: flex;">
+								<img src="./layout-educa/assets/img/Frame 1261158249.png" alt="" style="margin-right: 16px;">
+								<h2>Dữ liệu</h2>
+							</div>
+							
 							<p>Chất lượng thương hiệu Edupia. Doanh nghiệp tiên phong trong giáo dục online. Edtech số 1
 								tại thị trường Việt Nam.</p>
-						</div> -->
+						</div>
 					</div>
 
 
@@ -492,6 +535,12 @@
 				<h1>Hợp tác học thuật và giải thưởng</h1>
 				<p>Edupia cam kết cung cấp các cho học viên dịch vụ đào tạo trực tuyến chất lượng cao, cá nhân hóa.</p>
 			</div>
+
+			<div class="img-uni" style="text-align: center; margin-top: 70px; margin-bottom: 70px;">
+				<img src="./layout-educa/assets/img/image 6.png" alt="">
+			</div>
+			
+
 			<div class="collab-img" style="text-align: center;">
 				<img src="./layout-educa/assets/img/Cambridge-University-Press.png" alt="" style="width: 200px;">
 			</div>
